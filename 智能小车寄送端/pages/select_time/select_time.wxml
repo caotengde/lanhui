@@ -1,0 +1,32 @@
+<!--pages/select_time/select_time.wxml-->
+<view class="flex-wrp" style="flex-direction:column;">
+        <view class="flex-item flex-item-V demo-text-2">
+        <text class ="label">预约你的时间</text>
+        </view>
+        <view>
+        <text class="label2">select your time</text>
+        </view>
+        <view class="flex-item flex-item-V demo-text-2">
+        <image src="../../image/robot.png" mode="aspectFit"></image>
+        </view>
+        
+        <view class="flex-item flex-item-V demo-text-3">
+            <view>
+  <view class = "label3">{{day}}号{{hour}}时{{minute}}分</view>
+  <picker-view indicator-style="height: 70px;" style="width: 100%; height: 300px;" value="{{value}}" bindchange="bindChange">
+    <picker-view-column>
+      <view wx:for="{{days}}" style="line-height: 50px">{{item}}号</view>
+    </picker-view-column>
+    <picker-view-column>
+      <view wx:for="{{hours}}" style="line-height: 50px">{{item}}时</view>
+    </picker-view-column>
+    <picker-view-column>
+      <view wx:for="{{minutes}}" style="line-height: 50px">{{item}}分</view>
+    </picker-view-column>
+  </picker-view>
+</view>
+        </view>
+        <view>
+        <button type="primary" bindtap="goto">确定</button>
+        </view>
+      </view>

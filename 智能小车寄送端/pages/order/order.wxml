@@ -1,0 +1,10 @@
+<!--pages/order/order.wxml-->
+<view>
+        <text class ="page__title">您当前有两个订单</text>
+        </view>
+        <view>
+        <image mode ="aspectFit" src  = "/image/robot.png"></image>
+        </view>
+        <view>
+        <button type="primary" bindtap="goto2">查看并配送</button>
+        </view>
