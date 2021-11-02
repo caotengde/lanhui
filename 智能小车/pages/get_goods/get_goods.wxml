@@ -1,0 +1,11 @@
+<!--pages/get_goods/get_goods.wxml-->
+<view>
+<text class = "label">已开锁
+</text>
+</view>
+<view>
+<image mode="aspectFit" src = "/image/robot5.png"></image>
+</view>
+<view>
+<button type="primary" bindtap="evalue">已取货</button>
+</view>

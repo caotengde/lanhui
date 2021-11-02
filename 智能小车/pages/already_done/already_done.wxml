@@ -1,0 +1,13 @@
+<!--pages/already_done/already_done.wxml-->
+<view>
+<text class ="label">您的货物已送到</text>
+</view>
+<view>
+<image mode = "aspectFit" src = "/image/robot3.png"></image>
+</view>
+<view>
+    <button type="primary" bindtap="open" class = "but">开锁</button>
+</view>
+
+
+

@@ -1,0 +1,32 @@
+{
+    "pages": [
+        "pages/index/index",
+        "pages/register/register",
+        "pages/deposit/deposit",
+        "pages/identify/identify",
+        "pages/wallet/wallet",
+        "pages/pay/pay",
+        "pages/logs/logs",
+        "pages/promotion/promotion",
+        "pages/select_time",
+        "pages/already_done/already_done",
+        "pages/evalue/evalue",
+        "pages/get_goods/get_goods",
+        "pages/select_time/select_time",
+        "pages/wait_page/wait_page",
+        "pages/walking_night/walking_night"
+    ],
+    "permission": {
+        "scope.userLocation": {
+            "desc": "你的位置信息将用于小程序位置接口的效果展示"
+        }
+    },
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "岚徽物流",
+        "navigationBarTextStyle": "black"
+    },
+    "debug": true,
+    "sitemapLocation": "sitemap.json"
+}

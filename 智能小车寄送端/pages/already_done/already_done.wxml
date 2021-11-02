@@ -1,0 +1,10 @@
+<!--pages/already_done/already_done.wxml-->
+<view>
+<text class ="label">
+您的货物已经送达
+</text>
+</view>
+<view>
+<image mode="aspectFit" src = "/image/robot2.png">
+</image>
+</view>

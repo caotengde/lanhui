@@ -1,0 +1,7 @@
+<!--pages/evalue/evalue.wxml-->
+<view class = "weui-cell">
+<text class="label">谢谢！</text>
+</view>
+<view>
+<image mode="aspectFit" src = "/image/robot4.png"></image>
+</view>
